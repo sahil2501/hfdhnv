@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Chat Web Login</title>
+        <link rel = "shortcut icon" href = "chat.jpg">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <script src = "main.js"></script>
+        <link rel = "stylesheet" href = "style.css"></link>
+    </head>
+    <body>
+        <h1>Chat Web App
+        <sup>
+            <img src = "chat.jpg" class = "img responsive">
+        </sup>
+        </h1>
+        <h2>Username:</h2>
+        <br>
+        <br>
+        <input type = "text" id = "user_name" class="form-control" placeholder="User Name">
+        <br>
+        <br>
+        <button onclick="login()" class="btn btn-info" style="border-color:blue; border-width: 2px;">Login</button>
+    </body>
+</html>

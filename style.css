@@ -1,0 +1,39 @@
+body {
+    background-color: dodgerblue;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+    font-weight: bolder;
+    font-size: 45px;
+    margin-right: 10%;
+}
+
+img {
+    border-radius: 75px;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    padding: 30px;
+}
+
+h2 {
+    color: darkblue;
+    font-weight: 600;
+    font-size: 30px;
+    margin-right: 35%;
+}
+
+.form-control {
+    width: 30%;
+    margin-left: 30%;
+}
+
+button {
+    margin-right: 10%;
+}
+
+#output {
+    background-color: lightskyblue;
+}
